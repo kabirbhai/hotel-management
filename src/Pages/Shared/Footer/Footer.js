@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <div>
       <p>
-        copyright <span dangerouslySetInnerHTML={{ __html: "&copy;" }} /> {date}{" "}
+        Copyright
+        <span dangerouslySetInnerHTML={{ __html: "&copy;" }} /> {date}{" "}
       </p>
     </div>
   );
