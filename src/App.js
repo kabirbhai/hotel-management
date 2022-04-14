@@ -1,9 +1,13 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Pages/Shared/Header/Header";
+import Footer from "./Pages/Shared/Footer/Footer";
 
 function App() {
   return (
     <div>
-      <h1>welcome to our hotel</h1>
+      <Header />
+      <Footer />
     </div>
   );
 }
